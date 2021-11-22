@@ -90,8 +90,7 @@ namespace DotnetLightsaberFight.Test
          var actualAim = unknown.NextAim();
 
          //Assert
-         //Assert.AreEqual(correct, actualAim);
-         Assert.AreEqual(Aim.Defense, actualAim);
+         Assert.AreEqual(correct, actualAim);
       }
 
    }
